@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Nerdsinn_AjaxCategoryProducts>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>1.0.0</version>
+    </Nerdsinn_AjaxCategoryProducts>
+  </modules>
+</config>

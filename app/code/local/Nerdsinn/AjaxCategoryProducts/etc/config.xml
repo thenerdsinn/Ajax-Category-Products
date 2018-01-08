@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Nerdsinn_AjaxCategoryProducts>
+      <version>1.0.0</version>
+    </Nerdsinn_AjaxCategoryProducts>
+  </modules>
+  <global>
+    <helpers>
+      <ajaxcategoryproducts>
+        <class>Nerdsinn_AjaxCategoryProducts_Helper</class>
+      </ajaxcategoryproducts>
+    </helpers>
+	<blocks>
+	  <ajaxcategoryproducts>
+		<class>Nerdsinn_AjaxCategoryProducts_Block</class>
+	  </ajaxcategoryproducts>
+			<adminhtml>
+				<rewrite>
+					<catalog_category_tabs>Nerdsinn_AjaxCategoryProducts_Block_Adminhtml_Catalog_Category_Tabs</catalog_category_tabs>
+				</rewrite>
+			</adminhtml>
+	</blocks>
+  </global>
+</config> 
